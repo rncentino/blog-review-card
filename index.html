@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Blog preview card</title>
+    <style>
+      body {
+        background-color: hsl(47, 88%, 63%);
+        font-family: "Figtree", sans-serif;
+      }
+
+      .container {
+        background-color: hsl(0, 0%, 100%);
+        margin: 150px auto;
+        padding: 1rem 0.75rem;
+        width: 350px;
+        height: 500px;
+        border-radius: 15px;
+        border-right: 5px solid black;
+        border-bottom: 5px solid black;
+      }
+
+      .illu {
+        border-radius: 10px;
+      }
+
+      button {
+        background-color: hsl(47, 88%, 63%);
+        color: black;
+        border: none;
+        font-weight: 800;
+        border-radius: 5px;
+        width: 85px;
+        height: 30px;
+        cursor: pointer;
+        margin-left: 8px;
+      }
+
+      .publish {
+        margin-left: 8px;
+        font-size: 16px;
+        font-weight: 500;
+      }
+
+      h3 {
+        margin-left: 8px;
+        font-weight: 800;
+      }
+
+      .paragraph {
+        margin-left: 8px;
+        color: hsl(0, 0%, 50%);
+      }
+
+      .author {
+        margin-left: 8px;
+        display: flex;
+        align-items: center;
+        font-weight: 800;
+      }
+
+      span {
+        margin-left: 15px;
+      }
+
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p style="text-align: center">
+        <img
+          class="illu"
+          src="assets/images/illustration-article.svg"
+          alt="illustration-article"
+        />
+      </p>
+      <button>Learning</button>
+      <p class="publish">Published 21 Dec 2023</p>
+      <h3>HTML & CSS foundations</h3>
+      <p class="paragraph">
+        These languages are the backbone of every<br />
+        website, defining structure, content, and<br />
+        presentation.
+      </p>
+      <p class="author">
+        <img src="assets/images/image-avatar.webp" alt="avatar" /> <span> Greg Hooper</span>
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ronie Centino</a>.
+    </div>
+  </body>
+</html>
